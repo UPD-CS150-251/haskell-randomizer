@@ -17,7 +17,7 @@
     ```
 1. Check `data/` for output files: `<requirement>-<section>.txt`
 
-Example:
+## Example
 
 ```
 cabal run . lab07 fru fwx1 fwx2 fyz
