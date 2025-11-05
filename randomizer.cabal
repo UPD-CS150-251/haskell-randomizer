@@ -1,0 +1,18 @@
+cabal-version:   3.14
+name:            randomizer
+version:         0.1.0.0
+license:         NONE
+author:          Juan Felipe Coronel
+maintainer:      juanfelipe.coronel@gmail.com
+build-type:      Simple
+extra-doc-files: CHANGELOG.md
+
+common warnings
+    ghc-options: -Wall
+
+executable randomizer
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.21.0.0, text, containers, Glob, list-shuffle
+    hs-source-dirs:   app
+    default-language: Haskell2010
